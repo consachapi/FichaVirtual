@@ -1,6 +1,6 @@
 # Ficha Virtual
 
-A new Flutter project.
+Aplicativo movil desarrollado con Flutter
 
 ## Descripción
 
