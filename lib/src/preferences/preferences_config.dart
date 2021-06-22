@@ -8,8 +8,8 @@ class PreferencesConfig {
   final String _organizacion = 'Gobierno Regional de Cusco';
   final String _anio = '2021';
   final bool _politica = false;
-  final String _oauth = 'http://oauth.regioncusco.gob.pe/auth/realms/sipac/protocol/openid-connect/token';
-  final String _api = 'http://sipac.regioncusco.gob.pe/api/encuestas';
+  final String _oauth = '';
+  final String _api = '';
   static final PreferencesConfig _instancia = new PreferencesConfig._internal();
   SharedPreferences _prefs;
 
