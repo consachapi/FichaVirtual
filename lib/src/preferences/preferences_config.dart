@@ -8,8 +8,8 @@ class PreferencesConfig {
   final String _organizacion = 'Gobierno Regional de Cusco';
   final String _anio = '2021';
   final bool _politica = false;
-  final String _oauth = '';
-  final String _api = '';
+  final String _oauth = 'OAUTH2_SERVER';
+  final String _api = 'RESOURCE_SERVER';
   static final PreferencesConfig _instancia = new PreferencesConfig._internal();
   SharedPreferences _prefs;
 
